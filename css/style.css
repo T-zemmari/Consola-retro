@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    position: relative;
+    width: auto;
+    border: 5px solid black;
+    height: 60px;
+    background-color: gray;
+    color:black;
+    margin: 10px;
+   
+}
+h1{
+    position:absolute;
+    margin-left: 300px;
+    margin-top: 10px;
+    font-weight: 40px;
+}
+.carcasaFrontal{
+  position: relative;
+  margin: auto;
+  width:300px;
+  height: 500px;
+  background-color: #A90C0C ;
+  border: 10px solid darkred;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+}
+.bordePantalla{
+    flex-direction: row;
+    background-color:#17202A;
+    width: 290px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-bottom-left-radius:8px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:30px;
+    
+}
+.pantalla{
+    
+    width: 240px;
+    height: 210px;
+    background-color: black;
+    border-right:solid 10px  #283747  ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.flechas{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color :yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 100%;
+
+}
+
+.flechas div{
+   background-color: black;
+   
+}
+.uno{
+    background-color: #A90C0C !important;
+}
+.tres{
+    background-color:  #A90C0C !important;
+}
+.siete{
+    background-color: #A90C0C !important;
+}
+.nueve{
+    background-color: #A90C0C !important;
+}
+#cinco{
+    background-color: #A90C0C !important;
+}
+
+#dos{
+    border: rgb(51, 50, 50) solid 2px;
+}
+#cuatro{
+    border: rgb(51, 50, 50) solid 2px;
+}
+#seis{
+    border: rgb(51, 50, 50) solid 2px;
+}
+#ocho{
+    border: rgb(51, 50, 50) solid 2px;
+}
+
+     
+
+#derecha{
+     position: absolute;
+     width: 0; 
+     height: 0; 
+     border-left: 25px solid gray;
+     border-top: 12.5px solid transparent;
+     border-bottom: 12.5px solid transparent;
+     margin-top: 3px;
+     margin-left: 4px;
+
+}
+
+.botones{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 180px;
+    width: 100px;
+    height: 100px;
+    background-color:#A90C0C ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+.botones div{
+    border-radius: 50%;
+    background-color: black;
+    
+}
+
+.select{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 60px;
+    width: 40px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: black;
+    border: rgb(51, 50, 50) solid 2px;
+}
+.start{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 110px;
+    width: 40px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: black;
+    border: rgb(51, 50, 50) solid 2px;
+}
+.power{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 130px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: black;
+    border: rgb(51, 50, 50) solid 2px;
+}
+
+
+
+
+/*.uno{
+    width: 33.33px;
+    height: 33.33px;
+    background-color: black;
+
+}
+.dos{
+    width: 33.33px;
+    height: 33.33px;
+    background-color: black;
+
+}
+.cuatro{
+    width: 33.33px;
+    height: 33.33px;
+    background-color: black;
+    
+}
+.cinco{
+    width: 33.33px;
+    height: 33.33px;
+    background-color: black;
+}
+.seis{
+    width: 33.33px;
+    height: 33.33px;
+    background-color: black;
+}
+.siete{
+    width: 33.33px;
+    height: 33.33px;
+    background-color: black;
+}
+.ocho{
+    width: 33.33px;
+    height: 33.33px;
+    background-color: black;
+}.nueve{
+    width: 33.33px;
+    height: 33.33px;
+    background-color: black;
+}*/
+
+
