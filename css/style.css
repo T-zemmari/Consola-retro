@@ -24,7 +24,7 @@ h1{
   margin: auto;
   width:300px;
   height: 500px;
-  background-color: #A90C0C ;
+  background-image: url(/img/backgroud\ red.jpg);
   border: 10px solid darkred;
   border-top-left-radius: 50px;
   border-top-right-radius: 15px;
@@ -60,58 +60,33 @@ h1{
     margin-left: 20px;
     width: 100px;
     height: 100px;
-    background-color :yellow;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border-radius: 100%;
+    background-image: url(/img/Flechas.jpg);
+    background-size: contain;
+    display: flex;
+   }
 
-}
+.uno{ background-image: url(/img/backgroud\ red.jpg);}
+.tres{ background-image: url(/img/backgroud\ red.jpg);}
+.siete{background-image: url(/img/backgroud\ red.jpg);}
+.nueve{background-image: url(/img/backgroud\ red.jpg);}
+#cinco{background-image: url(/img/backgroud\ red.jpg);}
 
-.flechas div{
-   background-color: black;
-   
-}
-.uno{
-    background-color: #A90C0C !important;
-}
-.tres{
-    background-color:  #A90C0C !important;
-}
-.siete{
-    background-color: #A90C0C !important;
-}
-.nueve{
-    background-color: #A90C0C !important;
-}
-#cinco{
-    background-color: #A90C0C !important;
+#dos{ 
+    background-image: url(/img/BOTON\ X.jpg);
+    background-size: cover;
 }
 
-#dos{
-    border: rgb(51, 50, 50) solid 2px;
-}
-#cuatro{
-    border: rgb(51, 50, 50) solid 2px;
+#cuatro{ 
+    background-size: cover;
+    background-image: url(/img/BOTON\ Y.jpg);
 }
 #seis{
-    border: rgb(51, 50, 50) solid 2px;
+    background-size: cover;
+    background-image: url(/img/boton\ A.jpg);
 }
 #ocho{
-    border: rgb(51, 50, 50) solid 2px;
-}
-
-     
-
-#derecha{
-     position: absolute;
-     width: 0; 
-     height: 0; 
-     border-left: 25px solid gray;
-     border-top: 12.5px solid transparent;
-     border-bottom: 12.5px solid transparent;
-     margin-top: 3px;
-     margin-left: 4px;
-
+    background-size: cover;
+    background-image: url(/img/boton\ B.jpg);
 }
 
 .botones{
@@ -120,93 +95,66 @@ h1{
     margin-left: 180px;
     width: 100px;
     height: 100px;
-    background-color:#A90C0C ;
+    background-image: url(/img/backgroud\ red.jpg);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-    
-}
+    grid-template-columns: 1fr 1fr 1fr;}
 .botones div{
     border-radius: 50%;
-    background-color: black;
-    
+    background-color: #161515;
 }
 
-.select{
+.botonesSelectStart{
     position: absolute;
-    margin-top: 450px;
+    margin-top: 420px;
     margin-left: 60px;
-    width: 40px;
-    height: 13px;
+    width: 105px;
+    height: 50px;
     border-radius: 10px;
-    background-color: black;
-    border: rgb(51, 50, 50) solid 2px;
+    background-image: url(/img/Select\ and\ start.jpg);
+    background-size: contain;
+    
 }
-.start{
+.reset{
     position: absolute;
-    margin-top: 450px;
-    margin-left: 110px;
-    width: 40px;
-    height: 13px;
-    border-radius: 10px;
-    background-color: black;
-    border: rgb(51, 50, 50) solid 2px;
+    margin-top: 280px;
+    margin-left: 120px;
+    width: 45px;
+    height: 45px;
+    background-image: url(/img/boton\ Reset.jpg);
+    background-size: cover;
+}
+
+.rejilla{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/Rejillas\ del\ audio.jpg);
+    background-size: auto;
+    margin-top: 400px;
+    margin-left: 200px;
 }
 .power{
     position: absolute;
-    margin-top: 280px;
-    margin-left: 130px;
-    width: 33px;
-    height: 33px;
-    border-radius: 50%;
-    background-color: black;
-    border: rgb(51, 50, 50) solid 2px;
+    width: 50px;
+    height: 15px;
+    background-color: #470303;
+    margin-top: 3px;
+    margin-left: 240px;
+    border-radius: 5px;
+    color: wheat;
+    font-size: 10px;
 }
-
-
-
-
-/*.uno{
-    width: 33.33px;
-    height: 33.33px;
-    background-color: black;
-
+span{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 1px;
 }
-.dos{
-    width: 33.33px;
-    height: 33.33px;
-    background-color: black;
-
+#chivato{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 220px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:rgba(255, 235, 205, 0.637);
 }
-.cuatro{
-    width: 33.33px;
-    height: 33.33px;
-    background-color: black;
-    
-}
-.cinco{
-    width: 33.33px;
-    height: 33.33px;
-    background-color: black;
-}
-.seis{
-    width: 33.33px;
-    height: 33.33px;
-    background-color: black;
-}
-.siete{
-    width: 33.33px;
-    height: 33.33px;
-    background-color: black;
-}
-.ocho{
-    width: 33.33px;
-    height: 33.33px;
-    background-color: black;
-}.nueve{
-    width: 33.33px;
-    height: 33.33px;
-    background-color: black;
-}*/
-
-
