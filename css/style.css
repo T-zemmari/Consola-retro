@@ -158,3 +158,9 @@ span{
     border-radius: 100%;
     background-color:rgba(255, 235, 205, 0.637);
 }
+.pantalla:hover{
+    background-image:url(/img/SSFII_title_screen.gif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
