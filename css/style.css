@@ -53,6 +53,18 @@ h1{
     border-right:solid 10px  #283747  ;
     margin-top: 20px;
     margin-left: 20px;
+    position: relative;
+    
+}
+#black{
+    
+    position: absolute;
+    z-index: 10;
+}
+#street{
+    
+    position: absolute;
+    z-index: 9;
 }
 .flechas{
     position: absolute;
@@ -133,30 +145,47 @@ h1{
     margin-top: 400px;
     margin-left: 200px;
 }
-.power{
+.powerOn{
     position: absolute;
-    width: 50px;
+    background-color: rgba(71, 67, 67 ,0.8);
+    width: 25px;
     height: 15px;
-    background-color: #470303;
-    margin-top: 3px;
+    margin-top: 2px;
     margin-left: 240px;
     border-radius: 5px;
-    color: wheat;
     font-size: 10px;
+    display: flex;
+    flex-direction: row;
+
 }
-span{
+
+.powerOff {
     position: absolute;
+    background-color: rgba(71, 67, 67 ,0.8);
+    width: 25px;
+    height: 15px;
+    margin-top: 2px;
+    margin-left: 200px;
+    border-radius: 5px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+
+} 
+span{
+    display: flex;
+    color:white;
     margin-left: 5px;
     margin-top: 1px;
 }
 #chivato{
     position: absolute;
     margin-top: 5px;
-    margin-left: 220px;
+    margin-left: 170px;
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color:rgba(255, 235, 205, 0.637);
+    background-color:rgba(63, 62, 61, 0.637);
 }
 .pantalla:hover{
     background-image:url(/img/SSFII_title_screen.gif) ;
